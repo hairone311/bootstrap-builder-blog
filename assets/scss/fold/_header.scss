@@ -1,0 +1,43 @@
+.main_header {
+  background-color: $purple;
+  padding: 20px;
+
+  .main_header_logo {
+    color: #FFF;
+
+    h1 {
+      margin-bottom: 0;
+    }
+
+    @include media-breakpoint-up(sm) {
+      //flex-basis: 10px;
+    }
+  }
+
+  .main_header_menu {
+    height: 100%;
+    margin: auto 0;
+
+    ul {
+      padding: 0px;
+      margin: 0px;
+
+      li {
+        list-style: none;
+
+        a {
+          margin-left: 10px;
+          color: #FFF;
+          padding: 10px 15px;
+          border-radius: 4px;
+
+          &:hover {
+            background-color: #FFF;
+            text-decoration: none;
+            color: $purple;
+          }
+        }
+      }
+    }
+  }
+}

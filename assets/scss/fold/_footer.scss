@@ -1,0 +1,22 @@
+.main_footer {
+  background-color: lighten($purple, 5);
+  color: #FFF;
+
+  h4 {
+    padding: 10px 0;
+    border-bottom: 2px solid lighten($purple, 30);
+    margin-bottom: 10px;
+  }
+
+  li {
+    margin-bottom: 10px;
+
+    a {
+      color: #FFF;
+    }
+  }
+}
+
+footer {
+  font-size: 0.875em;
+}

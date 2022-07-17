@@ -1,0 +1,19 @@
+.main_content {
+
+  .jumbotron {
+    background-color: lighten($purple, 5);
+    color: #FFF;
+  }
+
+  .main_last_articles {
+
+    h2 {
+      padding-bottom: 10px;
+      border-bottom: 3px solid $purple;
+
+      &:before {
+        content: '• ';
+      }
+    }
+  }
+}

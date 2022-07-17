@@ -1,0 +1,18 @@
+$purple: #563D7C;
+
+$theme-colors: (
+        "purple": $purple,
+        "orange": darkorange,
+        "white": #FFF
+);
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+* {
+  outline: none !important;
+}
+
+@import "addons/facebook";
+@import "fold/header";
+@import "fold/content";
+@import "fold/footer";
